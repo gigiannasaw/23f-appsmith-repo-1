@@ -1,5 +1,6 @@
 export default {
 	navigateBasedOnDropdown: (selectedOption) => {
+		// Perform navigation based on the selected option
 		switch (selectedOption) {
 			case 'Lowest Prices':
 				navigateTo('Screen 2A', 'SAME_WINDOW');

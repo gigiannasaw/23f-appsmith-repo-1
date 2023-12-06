@@ -60,6 +60,6 @@
     "originalTopRow": 3,
     "mobileLeftColumn": 21,
     "maxDynamicHeight": 9000,
-    "onOptionChange": "{{FiltersCopy.navigateBasedOnDropdown(Select7);}}",
+    "onOptionChange": "{{FiltersCopy.navigateBasedOnDropdown(Select7.selectedOptionLabel);}}",
     "minDynamicHeight": 4
 }

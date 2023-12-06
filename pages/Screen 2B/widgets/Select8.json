@@ -68,6 +68,6 @@
     "responsiveBehavior": "fill",
     "mobileLeftColumn": 35,
     "maxDynamicHeight": 9000,
-    "onOptionChange": "{{PersonasCopy.navigateBasedOnPersona(Select8);}}",
+    "onOptionChange": "{{PersonasCopy.navigateBasedOnPersona(Select8.selectedOptionLabel);}}",
     "minDynamicHeight": 4
 }
