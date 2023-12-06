@@ -9,7 +9,7 @@
         "label"
     ],
     "topRow": 3,
-    "bottomRow": 10,
+    "bottomRow": 79,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -28,7 +28,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "{{appsmith.store.cafe_id}}",
+    "text": "{{Api1.data}}",
     "key": "1e85x5ef9s",
     "isDeprecated": false,
     "rightColumn": 30,
@@ -53,7 +53,7 @@
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 7,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 10,
+    "originalBottomRow": 7,
     "fontSize": "3rem",
     "minDynamicHeight": 4
 }
