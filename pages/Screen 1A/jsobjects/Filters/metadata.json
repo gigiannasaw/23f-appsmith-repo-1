@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "Filters",
+    "pageId": "Screen 1A",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Screen 1A_Filters",
+  "deleted": false,
+  "gitSyncId": "656f9f47ed2f5944455de697_656fea6c162cf47cd7fa2d15"
+}
