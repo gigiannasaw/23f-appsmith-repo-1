@@ -84,7 +84,7 @@
   "color": "#FBF4ED",
   "icon": "shop",
   "unpublishedAppLayout": {
-    "type": "DESKTOP"
+    "type": "FLUID"
   },
   "publishedAppLayout": {
     "type": "DESKTOP"
