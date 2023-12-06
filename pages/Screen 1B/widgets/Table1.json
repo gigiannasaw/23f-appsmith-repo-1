@@ -228,7 +228,7 @@
         },
         "customColumn1": {
             "computedValue": "",
-            "onClick": "{{navigateTo('Screen 7B', currentRow.cafe_id, 'SAME_WINDOW');}}",
+            "onClick": "{{navigateTo('Screen 7B', {}, 'SAME_WINDOW');\nstoreValue('delete_cafe_id', currentRow.cafe_id);}}",
             "buttonColor": "#f2dbb6",
             "isEditable": false,
             "notation": "standard",
@@ -300,7 +300,7 @@
         "customColumn2": {
             "boxShadow": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( \"none\"))}}",
             "computedValue": "",
-            "onClick": "{{Api4.run();}}",
+            "onClick": "{{storeValue('delete_cafe_id', currentRow.cafe_id);\nApi4.run().then(() => {\n  Api1.run();\n});}}",
             "buttonColor": "#f2dbb6",
             "isEditable": false,
             "notation": "standard",
