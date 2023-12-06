@@ -29,8 +29,9 @@
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "originalBottomRow": 10,
     "mobileBottomRow": 11,
-    "widgetName": "Select1",
+    "widgetName": "Select19",
     "isFilterable": false,
+    "dynamicPropertyPathList": [],
     "displayName": "Select",
     "searchTags": ["dropdown"],
     "bottomRow": 12,
@@ -59,6 +60,6 @@
     "originalTopRow": 3,
     "mobileLeftColumn": 21,
     "maxDynamicHeight": 9000,
-    "onOptionChange": "{{Filters.navigateBasedOnDropdown();}}",
+    "onOptionChange": "{{FiltersCopy.navigateBasedOnDropdown(Select19);}}",
     "minDynamicHeight": 4
 }

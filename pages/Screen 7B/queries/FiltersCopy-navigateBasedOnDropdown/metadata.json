@@ -13,8 +13,8 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Screen 6B",
-    "collectionId": "Screen 6B_FiltersCopy",
+    "pageId": "Screen 7B",
+    "collectionId": "Screen 7B_FiltersCopy",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -40,7 +40,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Screen 6B_FiltersCopy.navigateBasedOnDropdown",
+  "id": "Screen 7B_FiltersCopy.navigateBasedOnDropdown",
   "deleted": false,
-  "gitSyncId": "656f9f47ed2f5944455de697_656ffc7f162cf47cd7fa2e05"
+  "gitSyncId": "656f9f47ed2f5944455de697_656ff998162cf47cd7fa2dc2"
 }

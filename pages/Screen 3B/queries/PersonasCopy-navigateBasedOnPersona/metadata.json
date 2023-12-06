@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "navigateBasedOnDropdown",
-    "fullyQualifiedName": "FiltersCopy.navigateBasedOnDropdown",
+    "name": "navigateBasedOnPersona",
+    "fullyQualifiedName": "PersonasCopy.navigateBasedOnPersona",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -13,8 +13,8 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Screen 6B",
-    "collectionId": "Screen 6B_FiltersCopy",
+    "pageId": "Screen 3B",
+    "collectionId": "Screen 3B_PersonasCopy",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -40,7 +40,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Screen 6B_FiltersCopy.navigateBasedOnDropdown",
+  "id": "Screen 3B_PersonasCopy.navigateBasedOnPersona",
   "deleted": false,
-  "gitSyncId": "656f9f47ed2f5944455de697_656ffc7f162cf47cd7fa2e05"
+  "gitSyncId": "656f9f47ed2f5944455de697_656ffb8e162cf47cd7fa2ded"
 }

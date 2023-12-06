@@ -51,6 +51,22 @@
     {
       "id": "Screen 6B",
       "isDefault": false
+    },
+    {
+      "id": "Screen 7A",
+      "isDefault": false
+    },
+    {
+      "id": "Screen 7B",
+      "isDefault": false
+    },
+    {
+      "id": "Screen 8A",
+      "isDefault": false
+    },
+    {
+      "id": "Screen 8B",
+      "isDefault": false
     }
   ],
   "viewMode": false,

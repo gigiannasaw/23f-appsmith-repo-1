@@ -28,7 +28,7 @@
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileBottomRow": 10,
     "widgetName": "Select2",
-    "isFilterable": true,
+    "isFilterable": false,
     "displayName": "Select",
     "searchTags": ["dropdown"],
     "bottomRow": 6,
