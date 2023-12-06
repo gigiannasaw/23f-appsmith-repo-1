@@ -228,7 +228,7 @@
         },
         "customColumn1": {
             "computedValue": "",
-            "onClick": "{{navigateTo('Screen 7B', {}, 'SAME_WINDOW');\nstoreValue('delete_cafe_id', currentRow.cafe_id);}}",
+            "onClick": "{{navigateTo('Screen 7B', {}, 'SAME_WINDOW');\nstoreValue('cafe_id', currentRow.cafe_id);}}",
             "buttonColor": "#f2dbb6",
             "isEditable": false,
             "notation": "standard",

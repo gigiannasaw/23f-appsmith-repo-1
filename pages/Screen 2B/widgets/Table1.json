@@ -90,7 +90,10 @@
     "hideCard": false,
     "mobileRightColumn": 25,
     "parentColumnSpace": 19.8125,
-    "dynamicTriggerPathList": [{"key": "primaryColumns.customColumn1.onClick"}],
+    "dynamicTriggerPathList": [
+        {"key": "primaryColumns.customColumn1.onClick"},
+        {"key": "primaryColumns.customColumn2.onClick"}
+    ],
     "borderWidth": "1",
     "primaryColumns": {
         "zip": {
@@ -300,7 +303,7 @@
         "customColumn1": {
             "boxShadow": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( \"none\"))}}",
             "computedValue": "",
-            "onClick": "{{navigateTo('Screen 7B', currentRow.cafe_id, 'SAME_WINDOW');}}",
+            "onClick": "{{navigateTo('Screen 7B', currentRow.cafe_id, 'SAME_WINDOW');\nstoreValue('cafe_id', currentRow.cafe_id);}}",
             "buttonColor": "#f2dbb6",
             "isEditable": false,
             "notation": "standard",
@@ -373,6 +376,7 @@
         "customColumn2": {
             "boxShadow": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( \"none\"))}}",
             "computedValue": "",
+            "onClick": "{{storeValue('delete_cafe_id', currentRow.cafe_id);\nApi4.run().then(() => {\n  Api3.run();\n});}}",
             "buttonColor": "#f2dbb6",
             "isEditable": false,
             "notation": "standard",
