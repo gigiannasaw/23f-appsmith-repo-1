@@ -11,7 +11,8 @@
     "leftColumn": 49,
     "dynamicBindingPathList": [
         {"key": "accentColor"},
-        {"key": "borderRadius"}
+        {"key": "borderRadius"},
+        {"key": "sourceData"}
     ],
     "placeholderText": "Select user persona",
     "isDisabled": false,
@@ -39,32 +40,19 @@
     "parentColumnSpace": 17.9375,
     "dynamicTriggerPathList": [{"key": "onOptionChange"}],
     "labelPosition": "Auto",
-    "sourceData": [
-        {
-            "code": "BLUE",
-            "name": "Blue"
-        },
-        {
-            "code": "GREEN",
-            "name": "Green"
-        },
-        {
-            "code": "RED",
-            "name": "Red"
-        }
-    ],
+    "sourceData": "{{Api3.data.map( (obj) =>{ return  {'label': obj.key, 'value': obj.value } })}}",
     "key": "wvo0ls8wxq",
     "labelTextSize": "0.875rem",
     "isDeprecated": false,
     "rightColumn": 64,
     "widgetId": "w9gbmtsz7o",
-    "optionValue": "code",
+    "optionValue": "value",
     "minWidth": 450,
     "parentId": "0",
     "labelAlignment": "left",
     "renderMode": "CANVAS",
     "mobileTopRow": 3,
-    "optionLabel": "name",
+    "optionLabel": "label",
     "responsiveBehavior": "fill",
     "mobileLeftColumn": 35,
     "maxDynamicHeight": 9000,

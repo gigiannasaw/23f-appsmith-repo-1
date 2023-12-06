@@ -3,7 +3,8 @@
     "boxShadow": "none",
     "mobileBottomRow": 13,
     "widgetName": "Button6",
-    "buttonColor": "#f4f4f5",
+    "onClick": "{{navigateTo('Screen 9', {}, 'SAME_WINDOW');}}",
+    "buttonColor": "#f2dbb6",
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
     "searchTags": [
@@ -18,7 +19,7 @@
     "mobileRightColumn": 62,
     "animateLoading": true,
     "parentColumnSpace": 17.9375,
-    "dynamicTriggerPathList": [],
+    "dynamicTriggerPathList": [{"key": "onClick"}],
     "leftColumn": 53,
     "dynamicBindingPathList": [{"key": "borderRadius"}],
     "text": "Add cafe",
