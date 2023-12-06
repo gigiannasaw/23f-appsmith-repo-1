@@ -23,11 +23,12 @@
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
-        {"key": "borderRadius"}
+        {"key": "borderRadius"},
+        {"key": "text"}
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "INSERT CAFE NAME",
+    "text": "{{appsmith.store.cafe_id}}",
     "key": "1e85x5ef9s",
     "isDeprecated": false,
     "rightColumn": 30,
