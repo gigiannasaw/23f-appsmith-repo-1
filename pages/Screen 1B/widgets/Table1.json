@@ -17,9 +17,9 @@
         {"key": "primaryColumns.days.computedValue"},
         {"key": "primaryColumns.name.computedValue"},
         {"key": "primaryColumns.time.computedValue"},
-        {"key": "primaryColumns.cafe_id.computedValue"},
         {"key": "primaryColumns.customColumn2.borderRadius"},
-        {"key": "primaryColumns.customColumn2.boxShadow"}
+        {"key": "primaryColumns.customColumn2.boxShadow"},
+        {"key": "primaryColumns.cafe_id.computedValue"}
     ],
     "needsHeightForContent": true,
     "leftColumn": 2,
@@ -62,7 +62,7 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1701874981414,
+    "columnUpdatedAt": 1701925796727,
     "defaultSelectedRowIndices": [0],
     "mobileBottomRow": 55,
     "widgetName": "Table1",
@@ -72,9 +72,9 @@
         "days",
         "name",
         "time",
-        "cafe_id",
         "customColumn1",
-        "customColumn2"
+        "customColumn2",
+        "cafe_id"
     ],
     "dynamicPropertyPathList": [{"key": "onSearchTextChanged"}],
     "displayName": "Table",
@@ -141,7 +141,7 @@
             "allowCellWrapping": false,
             "index": 1,
             "isDiscardVisible": true,
-            "isVisible": false,
+            "isVisible": true,
             "label": "cafe_id",
             "fontStyle": "",
             "textColor": "",
