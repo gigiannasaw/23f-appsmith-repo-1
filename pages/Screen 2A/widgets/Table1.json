@@ -298,7 +298,7 @@
         "customColumn1": {
             "boxShadow": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( \"none\"))}}",
             "computedValue": "",
-            "onClick": "{{navigateTo('Screen 7A', currentRow.cafe_id, 'SAME_WINDOW');}}",
+            "onClick": "{{storeValue('cafe_id', currentRow.cafe_id);\nnavigateTo('Screen 7A', {}, 'SAME_WINDOW');}}",
             "buttonColor": "#f2dbb6",
             "isEditable": false,
             "notation": "standard",

@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Screen 7A",
+    "pageId": "Screen 7B",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -64,7 +64,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Screen 7A_Api1",
+  "id": "Screen 7B_Api1",
   "deleted": false,
-  "gitSyncId": "656f9f47ed2f5944455de697_65707f5c78654b63abef030e"
+  "gitSyncId": "656f9f47ed2f5944455de697_6570b50078654b63abef0335"
 }
