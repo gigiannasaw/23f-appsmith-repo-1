@@ -2,7 +2,7 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "Api1",
+    "name": "Api3Copy",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Screen 7A",
+    "pageId": "Screen 7B",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -47,7 +47,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Screen 7A_Api1",
+  "id": "Screen 7B_Api3Copy",
   "deleted": false,
-  "gitSyncId": "656ffec56191142a24778249_65720f24201b386ab8e00724"
+  "gitSyncId": "656ffec56191142a24778249_65721735201b386ab8e00731"
 }

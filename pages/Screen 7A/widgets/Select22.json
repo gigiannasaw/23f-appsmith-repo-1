@@ -40,7 +40,7 @@
     "parentColumnSpace": 17.9375,
     "dynamicTriggerPathList": [{"key": "onOptionChange"}],
     "labelPosition": "Auto",
-    "sourceData": "{{Api1.data}}",
+    "sourceData": "{{Api3Copy.data.map( (obj) =>{ return  {'label': obj.key, 'value': obj.value } })}}",
     "key": "wvo0ls8wxq",
     "labelTextSize": "0.875rem",
     "isDeprecated": false,
@@ -56,6 +56,6 @@
     "responsiveBehavior": "fill",
     "mobileLeftColumn": 35,
     "maxDynamicHeight": 9000,
-    "onOptionChange": "{{PersonasCopy.navigateBasedOnPersona(Select22.selectedOptionLabel);}}",
+    "onOptionChange": "{{PersonasCopyCopy.navigateBasedOnPersona(Select22.selectedOptionLabel);}}",
     "minDynamicHeight": 4
 }

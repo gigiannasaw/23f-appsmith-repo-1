@@ -38,6 +38,16 @@
               ],
               "timeoutInMillisecond": 10000
             }
+          ],
+          [
+            {
+              "id": "Screen 7B_Api3Copy",
+              "name": "Api3Copy",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
           ]
         ],
         "layoutOnLoadActionErrors": [],
