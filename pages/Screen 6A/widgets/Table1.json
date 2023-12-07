@@ -304,7 +304,7 @@
     "textSize": "0.875rem",
     "widgetId": "dr660blviq",
     "minWidth": 450,
-    "tableData": "{{Api3.data}}",
+    "tableData": "{{GetAllCafesWithPromotions.data}}",
     "label": "Data",
     "searchKey": "",
     "parentId": "0",

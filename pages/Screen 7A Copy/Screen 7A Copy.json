@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Screen 6A",
-    "slug": "screen-6a",
+    "name": "Screen 7A Copy",
+    "slug": "screen-7a-copy",
     "layouts": [
       {
         "viewMode": false,
@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 3050,
+          "bottomRow": 670,
           "containerStyle": "none",
           "snapRows": 124,
           "parentRowSpace": 1,
@@ -28,36 +28,21 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Screen 6A_GetAllCafesWithPromotions",
-              "name": "GetAllCafesWithPromotions",
+              "id": "Screen 7A Copy_GetCafeById",
+              "name": "GetCafeById",
               "confirmBeforeExecute": false,
               "pluginType": "API",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
-              "id": "Screen 6A_Api2",
-              "name": "Api2",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Screen 6A_Api3Copy",
-              "name": "Api3Copy",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [],
+              "jsonPathKeys": [
+                "",
+                "appsmith.store.cafe_id"
+              ],
               "timeoutInMillisecond": 10000
             }
           ]
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Screen 6A",
+        "id": "Screen 7A Copy",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -68,5 +53,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "656f9f47ed2f5944455de697_656feda8162cf47cd7fa2d83"
+  "gitSyncId": "656ffec56191142a24778249_6572042f201b386ab8e00717"
 }

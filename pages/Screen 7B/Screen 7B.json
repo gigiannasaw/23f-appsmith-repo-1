@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1540,
+          "bottomRow": 720,
           "containerStyle": "none",
           "snapRows": 124,
           "parentRowSpace": 1,
@@ -28,12 +28,12 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Screen 7B_Api1",
-              "name": "Api1",
+              "id": "Screen 7B_GetCafeById",
+              "name": "GetCafeById",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "\n\tcafe_id: {{}}\n",
+                "",
                 "appsmith.store.cafe_id"
               ],
               "timeoutInMillisecond": 10000
