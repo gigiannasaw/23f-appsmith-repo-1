@@ -1,8 +1,76 @@
 {
   "pages": [
     {
-      "id": "Page1",
+      "id": "Home",
       "isDefault": true
+    },
+    {
+      "id": "Screen 1A",
+      "isDefault": false
+    },
+    {
+      "id": "Screen 1B",
+      "isDefault": false
+    },
+    {
+      "id": "Screen 2A",
+      "isDefault": false
+    },
+    {
+      "id": "Screen 2B",
+      "isDefault": false
+    },
+    {
+      "id": "Screen 3A",
+      "isDefault": false
+    },
+    {
+      "id": "Screen 3B",
+      "isDefault": false
+    },
+    {
+      "id": "Screen 4A",
+      "isDefault": false
+    },
+    {
+      "id": "Screen 4B",
+      "isDefault": false
+    },
+    {
+      "id": "Screen 5A",
+      "isDefault": false
+    },
+    {
+      "id": "Screen 5B",
+      "isDefault": false
+    },
+    {
+      "id": "Screen 6A",
+      "isDefault": false
+    },
+    {
+      "id": "Screen 6B",
+      "isDefault": false
+    },
+    {
+      "id": "Screen 7A",
+      "isDefault": false
+    },
+    {
+      "id": "Screen 7B",
+      "isDefault": false
+    },
+    {
+      "id": "Screen 8A",
+      "isDefault": false
+    },
+    {
+      "id": "Screen 8B",
+      "isDefault": false
+    },
+    {
+      "id": "Screen 9",
+      "isDefault": false
     }
   ],
   "viewMode": false,
@@ -15,6 +83,12 @@
   },
   "color": "#FBF4ED",
   "icon": "shop",
+  "unpublishedAppLayout": {
+    "type": "FLUID"
+  },
+  "publishedAppLayout": {
+    "type": "FLUID"
+  },
   "unpublishedCustomJSLibs": [],
   "publishedCustomJSLibs": [],
   "evaluationVersion": 2,
