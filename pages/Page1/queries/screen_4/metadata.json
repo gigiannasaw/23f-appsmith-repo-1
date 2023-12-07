@@ -45,7 +45,8 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": []
+    "userPermissions": [],
+    "createdAt": "2023-12-05T20:45:36Z"
   },
   "id": "Page1_screen_4",
   "deleted": false,
