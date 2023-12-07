@@ -7,7 +7,6 @@
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "sshProxyEnabled": false,
         "url": "web:4000/c/cafe/personas"
       },
       "invalids": [],
