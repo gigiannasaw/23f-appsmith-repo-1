@@ -17,6 +17,7 @@
         {"key": "primaryColumns.days.computedValue"},
         {"key": "primaryColumns.name.computedValue"},
         {"key": "primaryColumns.time.computedValue"},
+        {"key": "primaryColumns.cafe_id.computedValue"},
         {"key": "primaryColumns.customColumn1.borderRadius"},
         {"key": "primaryColumns.customColumn1.boxShadow"},
         {"key": "primaryColumns.cafe_id.computedValue"}
@@ -62,7 +63,7 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1701885405124,
+    "columnUpdatedAt": 1701872675547,
     "originalBottomRow": 292,
     "defaultSelectedRowIndices": [0],
     "mobileBottomRow": 55,
