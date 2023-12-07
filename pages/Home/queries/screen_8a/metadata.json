@@ -45,8 +45,7 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": [],
-    "createdAt": "2023-12-05T20:47:43Z"
+    "userPermissions": []
   },
   "id": "Home_screen_8a",
   "deleted": false,
