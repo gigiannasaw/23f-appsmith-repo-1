@@ -3,7 +3,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 61,
     "widgetName": "EditHoursButton",
-    "onClick": "{{navigateTo('Screen 8A', {}, 'SAME_WINDOW');}}",
+    "onClick": "{{navigateTo('Screen 10', {}, 'SAME_WINDOW');}}",
     "buttonColor": "#231f20",
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",

@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Screen 7A Copy",
-    "slug": "screen-7a-copy",
+    "name": "Screen 10",
+    "slug": "screen-10",
     "layouts": [
       {
         "viewMode": false,
@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 670,
+          "bottomRow": 380,
           "containerStyle": "none",
           "snapRows": 124,
           "parentRowSpace": 1,
@@ -25,24 +25,10 @@
           "dynamicBindingPathList": [],
           "leftColumn": 0
         },
-        "layoutOnLoadActions": [
-          [
-            {
-              "id": "Screen 7A Copy_GetCafeById",
-              "name": "GetCafeById",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "",
-                "appsmith.store.cafe_id"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ]
-        ],
+        "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Screen 7A Copy",
+        "id": "Screen 10",
         "deleted": false,
         "policies": [],
         "userPermissions": []

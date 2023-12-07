@@ -28,6 +28,14 @@
         "layoutOnLoadActions": [
           [
             {
+              "id": "Screen 7A_Api1",
+              "name": "Api1",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
               "id": "Screen 7A_GetCafeById",
               "name": "GetCafeById",
               "confirmBeforeExecute": false,
