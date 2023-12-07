@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 3090,
+          "bottomRow": 670,
           "containerStyle": "none",
           "snapRows": 124,
           "parentRowSpace": 1,
@@ -27,6 +27,16 @@
         },
         "layoutOnLoadActions": [
           [
+            {
+              "id": "Screen 8A_GetCafeById",
+              "name": "GetCafeById",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.cafe_id"
+              ],
+              "timeoutInMillisecond": 10000
+            },
             {
               "id": "Screen 8A_GetCafePromotions",
               "name": "GetCafePromotions",
